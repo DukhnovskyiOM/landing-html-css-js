@@ -35,6 +35,14 @@ body {
   text-transform: uppercase;
   align-items: center;
   justify-content: center;
+  gap: 5px;
+}
+
+.header_title::before {
+  content: "\1F1FF \1F1E6";
+}
+.header_title::after {
+  content: "\1F1FF \1F1E6";
 }
 
 .under_header {
@@ -250,6 +258,10 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.main_description>span::after {
+  content: "\1F1FF \1F1E6";
 }
 
 .main_options {
